@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.mini.spring</groupId>
+    <artifactId>Mini-Spring</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <java.source.jdk>1.8</java.source.jdk>
+        <junit-version>4.7</junit-version>
+        <aopalliance-version>1.0</aopalliance-version>
+        <aspectj-version>1.6.11</aspectj-version>
+        <cglib-version>2.1_3</cglib-version>
+        <commons-lang3.version>3.1</commons-lang3.version>
+    </properties>
+
+    <modules>
+        <module>step-1-container-register-and-get</module>
+        <module>step-2-abstract-beanfactory-and-do-bean-initilizing-in-it</module>
+        <module>step-3-inject-bean-with-property</module>
+        <module>step-4-config-beanfactory-with-xml</module>
+        <module>step-5-inject-bean-to-bean</module>
+        <module>step-6-invite-application-context</module>
+        <module>step-7-method-interceptor-by-jdk-dynamic-proxy</module>
+        <module>step-8-invite-pointcut-and-aspectj</module>
+        <module>step-9-auto-create-aop-proxy</module>
+        <module>step-10-invite-cglib-and-aopproxy-factory</module>
+    </modules>
+
+
+    <name>Mini-Spring</name>
+    <description>简单Spring练习</description>
+    <url>https://github.com/limengyu1990/Mini-Spring</url>
+    <developers>
+        <developer>
+            <name>limengyu</name>
+            <email>limengyu1990@163.com</email>
+            <organization>limengyu</organization>
+        </developer>
+    </developers>
+
+    <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>${junit-version}</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>aopalliance</groupId>
+            <artifactId>aopalliance</artifactId>
+            <version>${aopalliance-version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.aspectj</groupId>
+            <artifactId>aspectjweaver</artifactId>
+            <version>${aspectj-version}</version>
+        </dependency>
+        <dependency>
+            <groupId>cglib</groupId>
+            <artifactId>cglib-nodep</artifactId>
+            <version>${cglib-version}</version>
+        </dependency>
+    </dependencies>
+
+    <scm>
+        <connection>scm:git:https://github.com/limengyu1990/Mini-Spring.git</connection>
+        <url>https://github.com/limengyu1990/Mini-Spring</url>
+        <developerConnection>scm:git:https://github.com/limengyu1990/Mini-Spring.git</developerConnection>
+    </scm>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.2</version>
+                <configuration>
+                    <source>${java.source.jdk}</source>
+                    <target>${java.source.jdk}</target>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>2.18.1</version>
+                <configuration>
+                    <skipTests>true</skipTests>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>
