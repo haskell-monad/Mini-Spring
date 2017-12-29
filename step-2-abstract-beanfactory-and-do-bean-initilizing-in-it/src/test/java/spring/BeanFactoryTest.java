@@ -17,7 +17,7 @@ public class BeanFactoryTest {
         BeanFactory beanFactory = new AutowireCapableBeanFactory();
         //注册bean
         BeanDefinition beanDefinition = new BeanDefinition();
-        beanDefinition.setBeanClass(UserServiceImpl.class);
+        beanDefinition.setBeanClassName("spring.model.UserServiceImpl");
         beanFactory.registerBean("user",beanDefinition);
         //获取bean
         UserServiceImpl user = (UserServiceImpl)beanFactory.getBean("user");
