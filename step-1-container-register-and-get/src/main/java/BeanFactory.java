@@ -2,12 +2,13 @@ import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
 /**
+ * 容器
  * @author limengyu
  * @create 2017/12/29
  */
 public class BeanFactory {
 
-    private Map<String,BeanDefinition> CONTAINER = new ConcurrentHashMap<>();
+    private Map<String,BeanDefinition> container = new ConcurrentHashMap<>();
 
     /**
      * 从容器中获取Bean
@@ -15,7 +16,7 @@ public class BeanFactory {
      * @return
      */
     public Object getBean(String beanName){
-        return CONTAINER.get(beanName).getBean();
+        return container.get(beanName).getBean();
     }
 
     /**
@@ -24,6 +25,6 @@ public class BeanFactory {
      * @param beanDefinition
      */
     public void registerBean(String beanName,BeanDefinition beanDefinition){
-        CONTAINER.put(beanName,beanDefinition);
+        container.put(beanName, beanDefinition);
     }
 }
