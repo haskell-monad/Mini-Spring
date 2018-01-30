@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/step-1-container-register-and-get" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/step-10-invite-cglib-and-aopproxy-factory" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/step-2-abstract-beanfactory-and-do-bean-initilizing-in-it" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/step-3-inject-bean-with-property" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/step-4-config-beanfactory-with-xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/step-5-inject-bean-to-bean" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/step-6-invite-application-context" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/step-7-method-interceptor-by-jdk-dynamic-proxy" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/step-8-invite-pointcut-and-aspectj" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/step-9-auto-create-aop-proxy" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

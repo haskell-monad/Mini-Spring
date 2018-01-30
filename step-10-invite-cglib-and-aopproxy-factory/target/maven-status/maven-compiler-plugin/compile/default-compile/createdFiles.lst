@@ -1,0 +1,3 @@
+spring\beans\factory\BeanFactory.class
+spring\beans\PropertyValue.class
+spring\beans\PropertyValues.class

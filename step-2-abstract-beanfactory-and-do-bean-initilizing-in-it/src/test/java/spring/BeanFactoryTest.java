@@ -1,8 +1,8 @@
 package spring;
 
 import org.junit.Test;
-import spring.factory.AutowireCapableBeanFactory;
-import spring.factory.BeanFactory;
+import spring.beans.factory.AutowireCapableBeanFactory;
+import spring.beans.factory.BeanFactory;
 import spring.model.UserServiceImpl;
 
 /**

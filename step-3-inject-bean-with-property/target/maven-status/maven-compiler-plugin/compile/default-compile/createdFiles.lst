@@ -1,0 +1,4 @@
+spring\BeanDefinition.class
+spring\beans\factory\BeanFactory.class
+spring\beans\factory\AbstractBeanFactory.class
+spring\beans\factory\AutowireCapableBeanFactory.class

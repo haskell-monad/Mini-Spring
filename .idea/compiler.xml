@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <resourceExtensions />
+    <wildcardResourcePatterns>
+      <entry name="!?*.java" />
+      <entry name="!?*.form" />
+      <entry name="!?*.class" />
+      <entry name="!?*.groovy" />
+      <entry name="!?*.scala" />
+      <entry name="!?*.flex" />
+      <entry name="!?*.kt" />
+      <entry name="!?*.clj" />
+      <entry name="!?*.aj" />
+    </wildcardResourcePatterns>
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="false">
+        <processorPath useClasspath="true" />
+      </profile>
+      <profile default="false" name="Annotation profile for method-interceptor-by-jdk-dynamic-proxy" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="method-interceptor-by-jdk-dynamic-proxy" />
+      </profile>
+      <profile default="false" name="Annotation profile for invite-application-context" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="invite-application-context" />
+      </profile>
+      <profile default="false" name="Annotation profile for inject-bean-with-property" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="inject-bean-with-property" />
+      </profile>
+      <profile default="false" name="Annotation profile for inject-bean-to-bean" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="inject-bean-to-bean" />
+      </profile>
+      <profile default="false" name="Annotation profile for invite-cglib-and-aopproxy-factory" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="invite-cglib-and-aopproxy-factory" />
+      </profile>
+      <profile default="false" name="Annotation profile for config-beanfactory-with-xml" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="config-beanfactory-with-xml" />
+      </profile>
+      <profile default="false" name="Annotation profile for abstract-beanfactory-and-do-bean-initilizing-in-it" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="abstract-beanfactory-and-do-bean-initilizing-in-it" />
+      </profile>
+      <profile default="false" name="Annotation profile for auto-create-aop-proxy" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="auto-create-aop-proxy" />
+      </profile>
+      <profile default="false" name="Annotation profile for invite-pointcut-and-aspectj" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="invite-pointcut-and-aspectj" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="1.8">
+      <module name="abstract-beanfactory-and-do-bean-initilizing-in-it" target="1.8" />
+      <module name="auto-create-aop-proxy" target="1.8" />
+      <module name="config-beanfactory-with-xml" target="1.8" />
+      <module name="container-register-and-get" target="1.8" />
+      <module name="inject-bean-to-bean" target="1.8" />
+      <module name="inject-bean-with-property" target="1.8" />
+      <module name="invite-application-context" target="1.8" />
+      <module name="invite-cglib-and-aopproxy-factory" target="1.8" />
+      <module name="invite-pointcut-and-aspectj" target="1.8" />
+      <module name="method-interceptor-by-jdk-dynamic-proxy" target="1.8" />
+      <module name="Mini-Spring" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

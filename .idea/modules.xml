@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Mini-Spring.iml" filepath="$PROJECT_DIR$/Mini-Spring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/step-2-abstract-beanfactory-and-do-bean-initilizing-in-it/abstract-beanfactory-and-do-bean-initilizing-in-it.iml" filepath="$PROJECT_DIR$/step-2-abstract-beanfactory-and-do-bean-initilizing-in-it/abstract-beanfactory-and-do-bean-initilizing-in-it.iml" />
+      <module fileurl="file://$PROJECT_DIR$/step-9-auto-create-aop-proxy/auto-create-aop-proxy.iml" filepath="$PROJECT_DIR$/step-9-auto-create-aop-proxy/auto-create-aop-proxy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/step-4-config-beanfactory-with-xml/config-beanfactory-with-xml.iml" filepath="$PROJECT_DIR$/step-4-config-beanfactory-with-xml/config-beanfactory-with-xml.iml" />
+      <module fileurl="file://$PROJECT_DIR$/step-1-container-register-and-get/container-register-and-get.iml" filepath="$PROJECT_DIR$/step-1-container-register-and-get/container-register-and-get.iml" />
+      <module fileurl="file://$PROJECT_DIR$/step-5-inject-bean-to-bean/inject-bean-to-bean.iml" filepath="$PROJECT_DIR$/step-5-inject-bean-to-bean/inject-bean-to-bean.iml" />
+      <module fileurl="file://$PROJECT_DIR$/step-3-inject-bean-with-property/inject-bean-with-property.iml" filepath="$PROJECT_DIR$/step-3-inject-bean-with-property/inject-bean-with-property.iml" />
+      <module fileurl="file://$PROJECT_DIR$/step-6-invite-application-context/invite-application-context.iml" filepath="$PROJECT_DIR$/step-6-invite-application-context/invite-application-context.iml" />
+      <module fileurl="file://$PROJECT_DIR$/step-10-invite-cglib-and-aopproxy-factory/invite-cglib-and-aopproxy-factory.iml" filepath="$PROJECT_DIR$/step-10-invite-cglib-and-aopproxy-factory/invite-cglib-and-aopproxy-factory.iml" />
+      <module fileurl="file://$PROJECT_DIR$/step-8-invite-pointcut-and-aspectj/invite-pointcut-and-aspectj.iml" filepath="$PROJECT_DIR$/step-8-invite-pointcut-and-aspectj/invite-pointcut-and-aspectj.iml" />
+      <module fileurl="file://$PROJECT_DIR$/step-7-method-interceptor-by-jdk-dynamic-proxy/method-interceptor-by-jdk-dynamic-proxy.iml" filepath="$PROJECT_DIR$/step-7-method-interceptor-by-jdk-dynamic-proxy/method-interceptor-by-jdk-dynamic-proxy.iml" />
+    </modules>
+  </component>
+</project>
